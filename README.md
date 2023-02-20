@@ -93,6 +93,6 @@ def hello_world():
 	- Ter pelo menos 13 anos de idade.
 	- Ter pelo menos 1.48 metros de altura.
 
-### Créditos
+## Créditos
 
 Os exercícios acima são baseados majoritariamente na plataforma [Beecrowd](https://www.beecrowd.com.br).
