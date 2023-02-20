@@ -71,12 +71,20 @@ def hello_world():
 
 	Calcule e imprima o valor da distância segundo a fórmula fornecida, com 4 casas após o ponto decimal.
 
-18. Escreva um programa que leia um numero inteiro representando a hora um numero inteiro representando os minutos e informe o total de segundos que passaram desde o começo do dia (00:00:00h)
 
-19. Neste problema, você deve informar um valor booleano significando se uma pessoa pode andar em um brinquedo no parque de diversões. Os critérios são:
+18. Neste problema, você deve informar um valor booleano significando se uma pessoa pode andar em um brinquedo no parque de diversões. Os critérios são:
 	
 	- Estar acompanhada de um responsável.
 	- Ter pelo menos 13 anos de idade.
 	- Ter pelo menos 1.48 metros de altura.
 
-20. Um cercado contem patos e coelhos. Faça um programa que solicita o total de cabeças e o total de patas, e escreve quantos patos e quantos coelhos existem no cercado.
+19. Escreva um programa que leia um numero inteiro representando a hora um numero inteiro representando os minutos e informe o total de segundos que passaram desde o começo do dia (00:00:00h)
+
+20. Leia o trecho de código abaixo e corrija-o.
+
+```python
+def soma_dois_numeros(numero_1, numero_2):
+	numero_1 + numero_2
+
+soma_dois_numeros(5, 9)
+```
