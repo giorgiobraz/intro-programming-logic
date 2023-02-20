@@ -92,3 +92,7 @@ def hello_world():
 	- Estar acompanhada de um responsável.
 	- Ter pelo menos 13 anos de idade.
 	- Ter pelo menos 1.48 metros de altura.
+
+### Créditos
+
+Os exercícios acima são baseados majoritariamente na plataforma [Beecrowd](https://www.beecrowd.com.br).
