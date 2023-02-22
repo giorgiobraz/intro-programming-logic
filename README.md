@@ -70,7 +70,15 @@ def hello_world():
 	$$Distancia = \sqrt{(x2 - x1)^2 + (y2 - y1)^2}$$
 
 	Calcule e imprima o valor da distância segundo a fórmula fornecida, com 4 casas após o ponto decimal.
+	
+	**DICA:** Use a biblioteca matemática do Python, como no exemplo abaixo:  
+	
+```python
+import math
 
+print("%.0f" % math.sqrt(144))
+print("O número 2 elevado ao quadrado é: %.0f" % math.pow(2, 2))
+```
 
 18. Neste problema, você deve informar um valor booleano significando se uma pessoa pode andar em um brinquedo no parque de diversões. Os critérios são:
 	
