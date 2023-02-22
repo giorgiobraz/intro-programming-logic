@@ -51,7 +51,7 @@ def hello_world():
 
 10. Escreva um programa para ler uma temperatura em Celsius e Transformá­la em Fahrenheit. Use a fórmula abaixo:
 
-	$$F = ((9 \times C) / 5) + 32$$
+	$$F = \frac{9 \times C}{5} + 32$$
 
 11. Em épocas de pouco dinheiro, os comerciantes estão procurando aumentar suas vendas oferecendo desconto. Escreva um programa que leia o valor de um produto e imprima o novo valor tendo em vista que o desconto foi de 9%. Além disso, imprima o valor do desconto.
 
