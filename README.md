@@ -5,7 +5,7 @@
 ## Resolva os exercícios abaixo
 
 > **Note**  
-> As soluções devem ser escritas em seus respectivos arquivos neste repositório. Por exemplo, ao resolver o exercício número 1 abaixo, abra o arquivo chamado <kbd>exercise_01.py</kbd> em seu computador, num ambiente do Codespaces ou teclado "." nesta página.
+> As soluções devem ser escritas em seus respectivos arquivos neste repositório. Por exemplo, ao resolver o exercício número 1 abaixo, abra o arquivo chamado <kbd>exercise_01.py</kbd> em seu computador, num ambiente do Codespaces ou teclando "." nesta página.
 
 #### Exemplo de um exercício
 
