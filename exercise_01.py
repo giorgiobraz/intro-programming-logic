@@ -1,8 +1,8 @@
 '''
 TODO
 Escreva um programa que mostre a frase: "hello world" na tela do computador.
-💡 DICA: use a função "print()" do Python.
+💡 DICA: retorne o resultado em vez de escrevê-lo na tela.
 '''
 
-def multiply(a, b):
-    a * b
+def hello_world():
+    pass # substitua esta linha pela solução
