@@ -4,6 +4,7 @@ def autenticacao_de_usuario():
 
     Se o e-mail e a senha digitados pelo usuário forem iguais ao e-mail e senha predefinidos, o programa deve exibir a mensagem "Login bem-sucedido!". Caso contrário, deve exibir a mensagem "E-mail ou senha inválidos, tente de novo!".
     '''
+    raise NotImplementedError() # Remove esta linha quando começar a editar o código
 
 def calcula_preco_do_lanche():
     '''
