@@ -4,7 +4,7 @@ def autenticacao_de_usuario():
 
     Se o e-mail e a senha digitados pelo usuário forem iguais ao e-mail e senha predefinidos, o programa deve exibir a mensagem "Login bem-sucedido!". Caso contrário, deve exibir a mensagem "E-mail ou senha inválidos, tente de novo!".
     '''
-    raise NotImplementedError() # Remove esta linha quando começar a editar o código
+    raise NotImplementedError() # Remova esta linha quando começar a editar o código
 
 def calcula_preco_do_lanche():
     '''
@@ -22,5 +22,7 @@ def calcula_preco_do_lanche():
     
     No final, o programa deve exibir a seguinte mensagem: "O valor a ser pago é: R$ X.XX", substituindo X.XX pelo valor calculado no programa.
 
+    ATENÇÃO: Caso o código lido seja inválido, ou seja, não exista na tabela de preços, você deve atribuir o valor 0.00 ao preço do lanche.
+
     '''
-    raise NotImplementedError() # Remove esta linha quando começar a editar o código
+    raise NotImplementedError() # Remova esta linha quando começar a editar o código
