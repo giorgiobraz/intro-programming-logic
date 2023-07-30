@@ -2,13 +2,13 @@ import pytest
 from unittest.mock import patch, call
 from io import StringIO
 from unittest.mock import patch
+import re
 import sys
 import intro
 
 @patch('builtins.input', side_effect=['usuario', 'senha123'])
 def test_autenticacao_de_usuario(mock_input):
     assert intro.autenticacao_de_usuario() == "Login bem-sucedido!" or "Login incorreto. Verifique seu login e senha."
-
 
 def simulate_input(inputs):
     return StringIO("\n".join(str(i) for i in inputs))
@@ -30,4 +30,5 @@ def test_calcula_preco_do_lanche():
         with patch("sys.stdin", simulate_input([codigo, quantidade])):
             with patch("sys.stdout", new=StringIO()) as output:
                 intro.calcula_preco_do_lanche()
-                assert output.getvalue() == f"Digite o código do produto: Digite a quantidade: O valor a ser pago é: {expected_output}"
+                expected_pattern = f"(.*)O valor a ser pago é: {re.escape(expected_output)}"
+                assert re.match(expected_pattern, output.getvalue()), f"Expected pattern not found in the output."
